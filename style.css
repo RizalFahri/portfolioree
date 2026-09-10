@@ -310,7 +310,7 @@ section { scroll-margin-top: 160px; margin-bottom: var(--container-gap); }
 .project-info span { font-size: 12px; color: var(--black); font-weight: 700; opacity: 0.8; }
 
 /* --- 9. ABOUT --- */
-.grid-about { display: grid; grid-template-columns: 1.8fr 1.2fr; gap: var(--card-gap); align-items: stretch; }
+.grid-about { display: grid; grid-template-columns: 1fr; gap: var(--card-gap); align-items: stretch; }
 .about-main h2 { color: var(--primary); }
 .badge {
     display: inline-block; background: var(--black); color: var(--white);
