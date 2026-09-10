@@ -110,8 +110,8 @@ h1, h2, h3, h4, h5 {
 }
 .btn.copied { background: var(--secondary); }
 
-.profile-actions { display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap; }
-.profile-actions .btn { flex: 1; min-width: 140px; }
+.profile-actions { display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap; justify-content: center; }
+.profile-actions .btn { flex: 1; min-width: 140px; white-space: nowrap; }
 
 section { scroll-margin-top: 160px; margin-bottom: var(--container-gap); }
 
@@ -208,7 +208,7 @@ section { scroll-margin-top: 160px; margin-bottom: var(--container-gap); }
 
 /* --- 6. HOME --- */
 .grid-home { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: var(--card-gap); align-items: stretch; }
-.profile { grid-row: span 2; background: var(--accent); }
+.profile { grid-row: span 2; background: var(--accent); text-align: center; }
 .cta-home { grid-column: span 2; background: var(--secondary); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 .cta-home h4 { color: var(--black) !important; background: none; -webkit-text-fill-color: var(--black) !important; }
 .cta-home p { color: var(--black) !important; font-weight: 700; }
